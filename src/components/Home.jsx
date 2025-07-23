@@ -18,7 +18,7 @@ const Home = () => {
           sequence={[
             "I build innovative solutions.",
             1500,
-            "I design and develop web applications.",
+            "I design and develop web and mobile applications.",
             1500,
             "I create seamless user experiences.",
             1500,
@@ -40,7 +40,7 @@ const Home = () => {
       </div>
 
       {/* Social Links */}
-      <div className="flex justify-center space-x-4 mt-4 mb-6">
+      <div className="flex justify-center space-x-10 mt-4 mb-6">
         <a href="https://github.com/Shivam-Mandal" target='_blank' rel="noopener noreferrer">
           <img src="/assets/github.png" alt="GitHub" className="w-10 h-10 hover:scale-110 transition" />
         </a>
@@ -55,7 +55,7 @@ const Home = () => {
       {/* Download Resume Button */}
       <div>
         <button className="border border-white text-sm md:text-base rounded-md px-6 py-3 flex items-center gap-3 text-black hover:bg-white hover:text-black transition bg-yellow-500">
-          <a href="https://drive.google.com/file/d/1RG1R5iMRWbTBV7P9sxQxJZhLOVLBiJOx/view?usp=sharing" target='_blank' download className="flex items-center gap-2">
+          <a href="https://drive.google.com/file/d/1BJLawwBk8M42iGJirVm7qRBIs2nAhtRi/view?usp=sharing" target='_blank' download className="flex items-center gap-2">
             <FaDownload /> Download My Resume
           </a>
         </button>

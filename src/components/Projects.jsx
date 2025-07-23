@@ -49,7 +49,7 @@ const projects = [
 export default function Projects() {
   return (
     <section id="projects" className="py-16 px-6 lg:px-24 bg-transparent">
-      <h2 className="text-4xl font-bold mb-12 text-center text-[#ffd700] tracking-wide">
+      <h2 className="text-4xl font-bold mb-12 text-center text-amber-400 tracking-wide">
         Projects
         <div className="mt-2 w-24 mx-auto h-1 bg-[#fef6b4] rounded-full"></div>
       </h2>
@@ -58,7 +58,7 @@ export default function Projects() {
         {projects.map((project, index) => (
           <div
             key={index}
-            className="rounded-2xl border border-[#fef6b4] p-6 bg-[#0b0c0c]/40 backdrop-blur-md transition-all duration-300 group relative"
+            className="rounded-2xl border border-gray-600 hover:border-yellow-400 p-6 bg-[#0b0c0c]/40 backdrop-blur-md group relative transition-transform duration-300 ease-in-out transform hover:-translate-y-2"
           >
             <h3 className="text-xl font-semibold mb-2 text-[#ffd700] group-hover:underline">{project.title}</h3>
             <p className="text-sm text-[#fef6b4] italic mb-3">{project.tech}</p>
