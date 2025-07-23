@@ -9,7 +9,7 @@ export default {
       backgroundImage: {
         'bg-img': "url('/assets/bgimg.jpg')",
         'bg-home': "url('/assets/bghome.jpg')", 
-        // 'background-size':'cover',
+        'background-size':'cover',
       },
       fontFamily: {
         Outfit: ['"Outfit"', "sans-serif"],
