@@ -115,15 +115,7 @@ const Navbar = () => {
               Education
             </a>
           </li>
-          <li>
-            <a
-              href="#links"
-              className={`block md:inline-block p-2 md:py-0 hover:text-gray-400 ${activeTab === 'links' ? 'border-b-2 border-amber-400 text-amber-400 hover:text-amber-400' : ''}`}
-              onClick={() => handleTabClick('links')}
-            >
-              Links
-            </a>
-          </li>
+         
           <li>
             <a
               href="#contact"
