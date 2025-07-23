@@ -42,13 +42,13 @@ const Home = () => {
       {/* Social Links */}
       <div className="flex justify-center space-x-4 mt-4 mb-6">
         <a href="https://github.com/Shivam-Mandal" target='_blank' rel="noopener noreferrer">
-          <img src="src/assets/github.png" alt="GitHub" className="w-10 h-10 hover:scale-110 transition" />
+          <img src="/assets/github.png" alt="GitHub" className="w-10 h-10 hover:scale-110 transition" />
         </a>
         <a href="https://www.linkedin.com/in/shivam-mandal-4a2528230/" target='_blank' rel="noopener noreferrer">
-          <img src="src/assets/linkedin.png" alt="LinkedIn" className="w-10 h-10 hover:scale-110 transition" />
+          <img src="/assets/linkedin.png" alt="LinkedIn" className="w-10 h-10 hover:scale-110 transition" />
         </a>
         <a href="https://leetcode.com/u/Shivam_Mandal" target='_blank' rel="noopener noreferrer">
-          <img src="src/assets/coding.png" alt="LeetCode" className="w-10 h-10 hover:scale-110 transition" />
+          <img src="/assets/coding.png" alt="LeetCode" className="w-10 h-10 hover:scale-110 transition" />
         </a>
       </div>
 

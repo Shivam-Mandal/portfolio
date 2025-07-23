@@ -6,7 +6,7 @@ const About = () => {
             <div className="flex flex-col md:flex-row mx-10 md:mx-20 justify-between items-center gap-10 py-10" id='about'>
                 <div className="w-full md:w-1/3 flex justify-center">
                     <img
-                        src="src/assets/profile-img.jpeg"
+                        src="/assets/profile-img.jpeg"
                         alt="Profile"
                         className="min-w-64 h-64 object-cover rounded-full shadow-lg transform transition duration-500 hover:scale-105"
                     />

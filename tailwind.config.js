@@ -7,9 +7,9 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'bg-img': "url('/src/assets/bgimg.jpg')",
-        'bg-home': "url('/src/assets/bghome.jpg')", 
-        'background-size':'cover',
+        'bg-img': "url('/assets/bgimg.jpg')",
+        'bg-home': "url('/assets/bghome.jpg')", 
+        // 'background-size':'cover',
       },
       fontFamily: {
         Outfit: ['"Outfit"', "sans-serif"],

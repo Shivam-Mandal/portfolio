@@ -18,7 +18,7 @@ const Navbar = () => {
     <nav className="bg-cover p-4">
       <div className="container mx-auto px-4 md:px-10 flex justify-between items-center">
         <div className="text-xl font-bold flex w-20">
-          <img src="src/assets/logo1.png" alt="logo" />
+          <img src="/assets/logo1.png" alt="logo" />
         </div>
         {/* Hamburger Menu Button */}
         <button  
